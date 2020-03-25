@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="another web page">
+    <meta name="keywords" content="square">
+    <meta name="author" content="devin-jhu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>another web page </title>
+  </head>
+  <body>
+    Number: <input type="text" id="txtbox" value="put number here">
+    <p>type a number in the text box to get its area squared</p>
+    <button onclick="textBox()">calculate</button><br>
+    <script>
+      let squareLength,
+      let squareArea,
+      function textBox() {
+      squareLength= document.getElementById("txtbox").value = " squareArea= squareLength*squareLength";
+      }
+      alert('the area of your square + squareArea');
+    </script>
+  </body>
+</html>
